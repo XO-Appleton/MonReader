@@ -26,6 +26,8 @@ We used both Accuracy and F1-score to evaluate the models.
 
 As the dataset is reasonably balanced. We decided to finalize our model to be the ViT model as it achieved very high accuracy score. The model was uploaded to HuggingFaceHub and can be find at [here](https://huggingface.co/XO-Appleton/vit-base-patch16-224-in21k-MR).
 
+![Model Sample Result](https://github.com/XO-Appleton/MonReader/assets/41369365/0dfa189e-d67a-449b-bd40-3bbfa910ecb9)
+
 ## Summary
 
 In this project, we developed a computer vision model which is able to classify if a page is being flipped or not. Despite the high accracy our final model was able to achieve on our dataset, when tested with images from internet which does not resemble the characteristics of our source, its performance decreses significantly as it tends to classify everything to be flipping. To resolve this issue, we plan on augmenting the training set with images from different sources in the future.
